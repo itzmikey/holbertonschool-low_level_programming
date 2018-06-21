@@ -9,29 +9,19 @@
  */
 int main(void)
 {
-  int n;
+	int n;
+	int star;
 
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
-  printf("Last digit of");
-  printf("%d", n);
-  printf("is %d", (10 % n));
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	star = n % 10;
 
-  if ((10 % n) > 5)
-    {
-      printf("is %d and is greater than 5\n", n);
-    }
-  else
-  {
-	  if
-	  {
-		  ((10 % n) < 0)
-			  }
-	  printf("is %d and is less than 6 and not 0\n", n);
-  }
-  else
-  {
-	  printf("is %d and is 0\n", n);
-    }
-return (0);
+	printf("Last digit of %d is ", n, star);
+	if (star > 5)
+		printf("%d and is greater than 5\n", star);
+	else if (star == 0)
+		printf("%d and is 0\n", star);
+	else if (star < 6)
+		printf("%d and is less than 6 and not 0\n", star);
+	return (0);
 }
