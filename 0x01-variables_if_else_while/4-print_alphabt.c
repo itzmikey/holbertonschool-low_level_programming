@@ -11,11 +11,11 @@ int main(void)
 
 	for (Word = 'a'; Word <= 'z'; Word++)
 	{
-	if (Word != 'q' && Word != 'e')
-	{
-		putchar(Word);
+		if (Word != 'q' && Word != 'e')
+		{
+			putchar(Word);
+		}
 	}
 	putchar('\n');
-	}
 	return (0);
 }
