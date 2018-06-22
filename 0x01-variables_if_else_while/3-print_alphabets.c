@@ -7,12 +7,16 @@
  */
 int main(void)
 {
-        char Word;
+	char Word;
 
-        for (Word = 'a'; Word <= 'z'; Word++)
-                putchar(Word);
-        for (Word = 'A'; Word <= 'Z'; Word++)
-                putchar(Word);
-        putchar('\n');
-        return (0);
+	for (Word = 'a'; Word <= 'z'; Word++)
+	{
+		putchar(Word);
+	}
+	for (Word = 'A'; Word <= 'Z'; Word++)
+	{
+		putchar(Word);
+	}
+	putchar('\n');
+	return (0);
 }
