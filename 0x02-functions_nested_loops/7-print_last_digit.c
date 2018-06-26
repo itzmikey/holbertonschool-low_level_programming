@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_last_digit - Prints last digit only
  * @r: Change of text
  * Return: Always 0.
  */
