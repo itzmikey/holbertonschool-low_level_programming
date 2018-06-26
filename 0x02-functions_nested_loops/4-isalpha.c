@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _isalpha - Return 1 for upper and lower letter otherwise return 0
+ * @c: Change text
  * Return: Always 0.
  */
 int _isalpha(int c)
