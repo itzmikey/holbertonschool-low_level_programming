@@ -2,12 +2,12 @@
 
 /**
  * main - check the code for Holberton School students.
- *
+ * Description - listing alphabet
  * Return: Always 0.
  */
 void print_alphabet(void)
 {
-	int c;
+	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
