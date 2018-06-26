@@ -3,13 +3,13 @@
 /**
  * print_last_digit - Prints last digit only
  * @r: Change of text
- * Return: Always 0.
+ * Return: 0
  */
 int print_last_digit(int r)
 {
 	int m;
 
-	if (r < 0)
+	if (r >= 0)
 	{
 		m = r % 10;
 	}
