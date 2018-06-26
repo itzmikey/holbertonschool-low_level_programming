@@ -2,9 +2,10 @@
 
 /**
  * print_last_digit - Prints last digits
+ * @r: Change text
  * Return: m
  */
-int print_last_digit(int)
+int print_last_digit(int r)
 {
 	char m;
 
