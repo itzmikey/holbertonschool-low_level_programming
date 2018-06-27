@@ -4,7 +4,6 @@
 /**
  * print_to_98 - Print from n to 98
  * @n: Starting point
- * Return: Always 0.
  */
 void print_to_98(int n)
 {
