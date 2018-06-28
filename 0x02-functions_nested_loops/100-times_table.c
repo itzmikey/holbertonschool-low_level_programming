@@ -3,6 +3,7 @@
 /**
  * print_times_table - Print out table starting with 0
  * @n: Change text
+ * Return: Always 0.
  */
 void print_times_table(int n)
 {
