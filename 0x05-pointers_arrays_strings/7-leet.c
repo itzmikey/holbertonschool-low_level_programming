@@ -13,7 +13,7 @@ char *leet(char *n)
 	char *dt = "4433007711";
 
 	for (i = 0; n[i] != '\0'; i++)
-		for(c = 0; lt[c] != '\0'; c++)
+		for (c = 0; lt[c] != '\0'; c++)
 			if (n[i] == lt[c])
 			{
 				n[i] = dt[c];
