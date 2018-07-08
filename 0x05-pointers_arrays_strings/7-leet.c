@@ -4,7 +4,7 @@
 /**
  * leet - Encoding the letters to numbers value
  * @n: Encode the value
- * Return: Always 0.
+ * Return: n.
  */
 char *leet(char *n)
 {
