@@ -5,11 +5,11 @@
  * _strpbrk - Search a string for any of a set of bytes
  * @s: String to be search
  * @accept: Another string to be search
- * Return: NULL if no byte found, else return pointer to 's' that match 'accept'
+ * Return: NULL if no byte found, else return pointer to 's' that match accept.
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i ,j;
+	int i, j;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
