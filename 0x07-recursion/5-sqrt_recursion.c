@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _sqrt_function - to get sqaureroot program
+ * sqrt_function - to get sqaureroot program
  * @n: Squareroot number
  * @i: Integers
  * Return: Squareroot number.
@@ -29,5 +29,5 @@ int _sqrt_recursion(int n)
 {
 	int i = 0;
 
-        return (sqrt_function(n, i));
+	return (sqrt_function(n, i));
 }
